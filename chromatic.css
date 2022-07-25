@@ -1,11 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
 
+
+
+
+
+
+
 body {
-  background-color: #f8f8ff;
-  font-family: 'Montserrat';
+  background-color: #dcdcdc;
+  font-family: 'Montserrat', Verdana, Geneva, sans-serif;
   font-size: small;
-  margin: 0px;
+  margin: auto;
 
   }
 
@@ -13,63 +19,87 @@ body {
   background-color: #483d8b;
   height: 150px;
   text-align: center;
-  padding: 0;
+  padding: 20px;
+  }
+
+  h1 {
+  font-weight: bold;
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+  h2 {
+    text-decoration: underline;
   }
 
   #tableContainer {
     display: table;
     border-spacing: 10px;
+    margin: auto;
     }
 
     #tableRow {
       display: table-row;
-
-    }
+      border-style: solid;
+      border-color: #000000;
+      }
 
   section#actual {
     display: table-cell;
     position: relative;
-    width: 350px;
-    background-color: #dcdcdc;
+    width: 475px;
+    background-color: #a9a9a9;
     font-size: 105%;
-    padding: 15px;
+    padding: 25px;
     vertical-align: middle;
     text-align: middle;
+    border-style: outset;
+    }
+
+    .icones {
+      text-align: center;
     }
 
   section#main {
     display: table-cell;
     position: relative;
-    background-color: #boc4de;
+    width: 800px;
+    background-color: #dcdcdc;
     font-size:  105%;
-    padding: 15px;
+    padding: 25px;
     vertical-align: top;
+    }
+
+    .Me4 {
+      list-style-image: shadow;
     }
 
 
   aside {
   display: table-cell;
   position: relative;
-  width: 350px;
-  background-color: #dcdcdc;
+  width: 475px;
+  height: 850px;
+  background-color: #a9a9a9;
   font-size: 105%;
-  padding: 15px;
+  padding: 10px;
   vertical-align: middle;
   text-align: center;
+  border-style: outset;
   float: right;
   }
 
   .ecrivez-moi {
     font-size: 25px;
-    color: #483d8b;
-   }
+    }
 
-footer {
+  section#footer {
   background-color: #483d8b;
   color: #fffff0;
   height: 110px;
   text-align: center;
-  padding: 15px;
+  padding: 5px;
   margin: 0px 10px 10px 10px;
   font-size: 90%;
   clear: right;
@@ -80,14 +110,19 @@ footer {
 }
 
 .premier {
-  color: #ff4500;
-}
-
-h1 {
-  font-weight: bolder;
-  font-size: 30px;
+  color: #cc0000;
 }
 
 
+
+a:link, a:visited {
+  color: #cc0000;
+  text-decoration: underline;
+}
+
+a:active, a:hover {
+  color: #008000;
+  text-decoration: none;
+}
 
   
